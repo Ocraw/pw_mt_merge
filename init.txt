@@ -1,0 +1,14 @@
+-- Paste this in [MINETEST_MODS_DIR]/pipeworks/init.lua
+-- /!\ DO NOT DELETE OR MODIFY THIS LINE /!\
+-- Removing the above line will make possible to reapply the merge,
+-- but make sure you delete all the following lines too.
+for _, name in ipairs({
+	"decelerator",
+	"eject",
+	"low_priority",
+	"reverse",
+	"straight",
+}) do
+	dofile(pipeworks.modpath .. DIR_DELIM .. "moretubes" .. DIR_DELIM .. name .. ".lua")
+end
+minetest.log("info", "Moretubes (Pipeworks Merge) loaded!")
