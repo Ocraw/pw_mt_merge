@@ -14,15 +14,19 @@ not an issue in Pipeworks or MoreTubes tho.
 
 When?
 
-When I found this mod didn't work on mcl and I got tired of typing.
+When I found MoreTubes didn't work on mcl and I got tired of typing.
 I commented out the sound property for mesecons and merged
 moretubes into pipeworks, as a result this might only work on mcl.
 
 
 How?
 
+Download/clone this repo anywhere you like.
+
 CARE: init.txt only contains the code to be added to
 .../pipeworks/init.lua
+DO NOT modify this file, the stuff written there is meant to be read
+in pipeworks/init.lua.
 
 Copy the code of this init.txt at the end of .../pipeworks/init.lua
 Copy the folders 'moretubes' and 'textures' into .../pipeworks/
@@ -44,7 +48,7 @@ CARE: Updating Pipeworks thru CDB will reset the directory and delete the
 merged files, keep this around and reapply when needed.
 
 Once you merged properly, you can't run again merge.sh as it will read
-the line "/!\ DO NOT REMOVE OR MODIFY THIS LINE /!\" to make sure you
+the line "/!\ DO NOT REMOVE OR MODIFY THIS LINE /!\\" to make sure you
 don't add double stuff in init.lua, you need to take care of removing all
 the code added by the merge, in case you need to merge again.
 Reinstall pipeworks and run merge.sh again if you are lost.
@@ -53,5 +57,5 @@ No, I won't make a merger for windows, switch to linux now.
 
 Legal stuff:
 Pipeworks is from https://github.com/mt-mods/pipeworks
-moretubes is from https://github.com/C-C-Minetest-Server/moretubes
+MoreTubes is from https://github.com/C-C-Minetest-Server/moretubes
 Their license apply, as none of the mod files are my work.
