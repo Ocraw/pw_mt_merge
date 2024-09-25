@@ -29,9 +29,9 @@ if xcompat.materials.dirt then
     minetest.register_craft({
         output = "pipeworks:decelerator_tube_1 2",
         recipe = {
-            { "basic_materials:plastic_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet" },
+            { "pipeworks:plastic_sheet", "pipeworks:plastic_sheet", "pipeworks:plastic_sheet" },
             { "",                              xcompat.materials.dirt,          "" },
-            { "basic_materials:plastic_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet" }
+            { "pipeworks:plastic_sheet", "pipeworks:plastic_sheet", "pipeworks:plastic_sheet" }
         },
     })
 end

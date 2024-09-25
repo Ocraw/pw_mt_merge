@@ -22,9 +22,9 @@ if xcompat.materials.coal_lump then
     minetest.register_craft({
         output = "pipeworks:low_priority_tube 6",
         recipe = {
-            { "basic_materials:plastic_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet" },
+            { "pipeworks:plastic_sheet", "pipeworks:plastic_sheet", "pipeworks:plastic_sheet" },
             { xcompat.materials.coal_lump,     "",                              xcompat.materials.coal_lump },
-            { "basic_materials:plastic_sheet", "basic_materials:plastic_sheet", "basic_materials:plastic_sheet" }
+            { "pipeworks:plastic_sheet", "pipeworks:plastic_sheet", "pipeworks:plastic_sheet" }
         },
     })
 end
