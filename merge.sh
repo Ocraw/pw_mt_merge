@@ -34,7 +34,7 @@ if ! [ -d "$_ledir" ]; then
   echo "--[ $_ledir is not a valid directory. Exiting."
   exit 1
 elif ! [ -w "${_ledir}/init.lua" ] || ! [ -w "${_ledir}/textures" ]; then
-  echo "--[ Couldn't find ${_ledir}/init.lua or ${_ledir}/textures\n
+  echo "--[ Couldn't find ${_ledir}/init.lua or ${_ledir}/textures
     or you have no write access. Check directory again. Exiting."
   exit 1
 else
